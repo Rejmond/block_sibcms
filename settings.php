@@ -2,7 +2,7 @@
 
 defined('MOODLE_INTERNAL') || die;
 
-require_once($CFG->dirroot . '/mod/assign/adminlib.php');
+//require_once($CFG->dirroot . '/mod/assign/adminlib.php');
 
 if ($ADMIN->fulltree) {
 
