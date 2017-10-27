@@ -58,12 +58,12 @@ class form_assigns_data_table implements \renderable
         $this->table_head[] = get_string('key45', 'block_sibcms');
 
         $this->table_size = array(
-            '40%',
+            '30%',
             '10%',
             '10%',
             '10%',
-            '20%',
-            '20%'
+            '15%',
+            '35%'
         );
 
         $this->table_data = array();

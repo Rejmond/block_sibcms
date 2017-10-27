@@ -115,4 +115,5 @@ $string['key82'] = 'Some assigns have no feedbacks';
 $string['key83'] = 'This category with id {$a->category} does not contains the course with id {$a->course}';
 $string['key84'] = 'Save and go to next course';
 $string['key85'] = 'No more courses require attention in this category';
-
+$string['key86'] = 'Course modules data';
+$string['key87'] = 'Course grading';

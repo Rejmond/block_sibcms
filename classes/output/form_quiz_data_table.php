@@ -51,9 +51,9 @@ class form_quiz_data_table implements \renderable
         $this->table_head[] = get_string('key48', 'block_sibcms');
 
         $this->table_size = array(
-            '70%',
-            '15%',
-            '15%'
+            '50%',
+            '25%',
+            '25%'
         );
 
         $this->table_data = array();

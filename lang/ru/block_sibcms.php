@@ -1,26 +1,4 @@
 <?php
-// This file is part of Moodle - http://moodle.org/
-//
-// Moodle is free software: you can redistribute it and/or modify
-// it under the terms of the GNU General Public License as published by
-// the Free Software Foundation, either version 3 of the License, or
-// (at your option) any later version.
-//
-// Moodle is distributed in the hope that it will be useful,
-// but WITHOUT ANY WARRANTY; without even the implied warranty of
-// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-// GNU General Public License for more details.
-//
-// You should have received a copy of the GNU General Public License
-// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
-
-/**
- * block_sibcms
- *
- * @package    block_sibcms
- * @copyright  2017 Sergey Shlyanin, Aleksandr Raetskiy <ksenon3@mail.ru>
- * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
- */
 
 $string['pluginname'] = 'Система мониторинга курсов';
 $string['sibcms:myaddinstance'] = 'Добавлять новый блок «Мониторинг курсов» на домашнюю страницу';
@@ -115,3 +93,7 @@ $string['key82'] = 'В некоторых заданиях отключены о
 $string['key83'] = 'Категория с id {$a->category} не содержит курс с id {$a->course}';
 $string['key84'] = 'Сохранить и перейти к следующему курсу';
 $string['key85'] = 'В категории больше нет курсов, требующих внимания';
+$string['key86'] = 'Данные о модулях курса';
+$string['key87'] = 'Оценивание курса';
+$string['key86'] = 'Данные о модулях курса';
+$string['key87'] = 'Оценивание курса';
