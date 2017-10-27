@@ -37,6 +37,7 @@ class feedback_form extends \moodleform
         global $PAGE;
         $mform = $this->_form;
         $course_data = $this->_customdata['course_data'];
+        $last_feedback = $this->_customdata['last_feedback'];
         $renderer = $PAGE->get_renderer('block_sibcms');
 
         $mform->addElement('header', 'general', get_string('general', 'form'));
@@ -91,6 +92,15 @@ class feedback_form extends \moodleform
             get_string('key29', 'block_sibcms'),
             $hints_str
         );
+
+        // Last feedback time
+        $mform->addElement('static', 'graders',
+            get_string('key88', 'block_sibcms'),
+            ($last_feedback) ?
+                userdate($last_feedback->timecreated) . '&nbsp;(' . format_time(time() - $last_feedback->timecreated) . ')' :
+                    get_string('never')
+        );
+
 
         $assigns = $course_data->assigns;
         $quiz = $course_data->quiz;
